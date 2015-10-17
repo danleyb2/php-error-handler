@@ -43,6 +43,20 @@ echo '</pre>';
 
 
 </div>
+<div style="margin:50px auto;width:60%; padding:2px;">
+<pre>
+Defined Variables
+<?php
+//print_r(get_defined_vars());
+?>
+</pre>
+<pre>
+Defined Functions
+<?php
+print_r(get_defined_functions()['user']);
+?>
+</pre>
+</div>
 
 
 <?php
